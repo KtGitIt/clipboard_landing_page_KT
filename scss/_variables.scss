@@ -1,0 +1,16 @@
+$ios-color: hsl(171, 66%, 44%);
+$mac-color: hsl(233, 100%, 69%);
+$btn-text: #fff;
+$headings-color: hsl(210, 10%, 33%);
+$paragraph-color: hsl(201, 11%, 66%);
+$footer-background: hsl(0, 0%, 96%);
+p {
+  color: $paragraph-color;
+}
+
+h1,
+h2,
+h3,
+a {
+  color: $headings-color;
+}
