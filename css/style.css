@@ -136,6 +136,7 @@ p {
 .features_grid img {
   position: relative;
   right: 30px;
+  max-width: 700px;
   width: 100%;
   height: auto;
 }
@@ -154,7 +155,7 @@ p {
 .access-features img {
   display: block;
   margin: 0 auto;
-  max-width: 950px;
+  max-width: 800px;
   width: 100%;
   height: auto;
 }
@@ -249,6 +250,20 @@ p {
   color: #26baa4;
 }
 
+@media (max-width: 1200px) {
+  .features_grid img {
+    position: static;
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .features_list {
+    text-align: center;
+    width: 95%;
+    padding: 0.75rem;
+  }
+}
 @media (max-width: 850px) {
   main {
     width: 100%;
@@ -276,19 +291,6 @@ p {
 
   .features_grid {
     display: block;
-  }
-
-  .features_grid img {
-    position: static;
-    display: block;
-    width: 85%;
-    margin: 0 auto;
-  }
-
-  .features_list {
-    text-align: center;
-    width: 95%;
-    padding: 0.75rem;
   }
 
   .workflow-features-grid {
